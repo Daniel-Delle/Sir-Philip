@@ -1,0 +1,260 @@
+/* BODY */
+body {
+    background-image: url(backgroundheralds.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+    color: #2C1A0E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV AND NAVBAR */
+#rightnavlinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 100%;
+    margin: 30px;
+    color: brown;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    white-space: nowrap;
+    color: #111111;
+}
+
+nav a {
+    text-decoration: none;
+    transition: 0.1s;
+    color: #F5ECD7;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    color: #C8922A;
+}
+
+.totalnavbar {
+    background-color: rgba(20, 15, 10, 0.82);
+    padding: 0px 20px;
+}
+
+#header > nav > img {
+    height: 100px;
+    width: auto;
+}
+
+#rightnavlinks > a:nth-child(1) {
+    border: #111111 solid 2px;
+    background-color: #7b1e1e;
+    padding: 0px 20px;
+    color: #F5ECD7;
+}
+
+#rightnavlinks > a:nth-child(2) {
+    border: #D4A843 solid 2px;
+    padding: 0px 15px;
+    background-color: #2C1A0E;
+    color: #F5ECD7;
+}
+
+#rightnavlinks > a:nth-child(2):hover {
+    background-color: #D4A843;
+    color: #2C1A0E;
+}
+
+#rightnavlinks > a:nth-child(1):hover {
+    background-color: transparent;
+}
+
+
+/* FIRST SECTION */
+.firstpartofpage {
+    line-height: 2px;
+    line-height: 40px;
+}
+
+.siteinfo {
+    text-align: center;
+    margin: 40px;
+    padding: 200px 40px;
+    line-height: 60px;
+}
+
+#welcomemsg {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #2C1A0E;
+}
+
+#empowermentmsg {
+    color: #2C1A0E;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+#livebtn {
+    font-size: 0.95rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 600;
+    color: #F5ECD7;
+    background-color: #7b1e1e;
+    padding: 10px 25px;
+}
+
+#livebtn:hover {
+    background-color: transparent;
+    color: #2C1A0E;
+    transition: 0.5s;
+}
+
+.welcomebtns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+#sermonsbtn {
+    font-size: 0.95rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #2C1A0E;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #2C1A0E;
+}
+
+#sermonsbtn:hover {
+    background-color: #382e27;
+    color: #F5ECD7;
+    transition: 0.5s;
+}
+
+/* LAST PART */
+.lastpartofpage {
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    justify-content: space-evenly;
+    background-color:#fdf6ecf0;
+    margin: 50px;
+    padding: 40px 80px;
+}
+
+.lastpartofpage h4 {
+    text-align: center;
+}
+
+.newmsg img {
+    width: 110%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.newmsg img:hover {
+    transform:scale(1.05) ;
+}
+
+.departmentimges img {
+    width: auto;
+    height: 110px;
+}
+
+.departmentimges img:hover{
+    transform:scale(1.05) ;
+}
+
+.departmentimges {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+
+hr {
+   border-top:0.5px solid #D4A843;
+}
+
+.events {
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.events hr{
+    position: relative;
+    left: 110px;
+    width: 40%;
+}
+
+.events button {
+    color: #7B1E1E;
+    border-color: #7B1E1E;
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 10px 17px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.events button:hover {
+    background-color: #7B1E1E;
+    color: #F5ECD7;
+    transition: 0.2s;
+}
+
+.invitelinks {
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    color: #7B1E1E;
+}
+
+.invitelinks:hover {
+    font-size: large;
+    transition: 0.2s;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: rgba(20, 15, 10, 0.82);
+    color: #F5ECD7;
+    text-align: center;
+    padding: 75px;
+    line-height: 40px;
+}
+
+footer button {
+    border: #D4A843 solid 2px;
+    padding: 0px 15px;
+    background-color: #D4A843;
+    color: #3D2B1F;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+
+footer button:hover {
+    text-decoration: underline;
+}
