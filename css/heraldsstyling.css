@@ -1,9 +1,9 @@
 /* BODY */
 body {
-    background-image: url(backgroundheralds.png);
+    /* background-image: url(backgroundheralds.png); */
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     font-family: sans-serif;
     color: #2C1A0E;
 }
@@ -87,11 +87,14 @@ nav a:hover{
 .firstpartofpage {
     line-height: 2px;
     line-height: 40px;
+    background-image: url(../heraldsImages/backgroundheralds.png);
+    background-position: center;
+
 }
 
 .siteinfo {
     text-align: center;
-    margin: 40px;
+    /* margin: 10px; */
     padding: 200px 40px;
     line-height: 60px;
 }
@@ -151,14 +154,13 @@ nav a:hover{
 
 /* LAST PART */
 .lastpartofpage {
-    border-radius: 12px;
+    /* border-radius: 12px; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
     justify-content: space-evenly;
-    background-color:#fdf6ecf0;
-    margin: 50px;
-    padding: 40px 80px;
+    background-color:rgb(244, 240, 240, 0.8);
+    padding: 100px 80px;
 }
 
 .lastpartofpage h4 {
@@ -237,6 +239,7 @@ hr {
 
 /* FOOTER */
 footer {
+    /* background-image: url(backgroundheralds.png); */
     background-color: rgba(20, 15, 10, 0.82);
     color: #F5ECD7;
     text-align: center;
@@ -257,4 +260,8 @@ footer button {
 
 footer button:hover {
     text-decoration: underline;
+}
+
+@media screen and (m){
+    
 }
