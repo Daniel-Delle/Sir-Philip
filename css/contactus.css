@@ -6,6 +6,24 @@
     font-family: sans-serif;
 }
 
+img {
+    width: auto;
+    height: 60px;
+}
+
+#number{
+    position: relative;
+    bottom: 18px;
+    right: 10px;
+
+}
+
+#email{
+    position: relative;
+    bottom: 18px;
+    right: 0px;
+}
+
 h1{
     font-weight: 400;
 }
@@ -36,6 +54,8 @@ header img{
 
 form{
     padding-top: 30px;
+    border: solid 1px #fff8ee;
+    margin: 40px 200px;
 }
 
 form div{
@@ -45,23 +65,59 @@ form div{
 label{
     display: block;
     font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 form button{
-    padding: 5px 15px;
-    border-radius: 8px;
+     border: #D4A843 solid 2px;
+    padding: 0px 15px;
+    background-color: #D4A843;
+    color: #3D2B1F;
     cursor: pointer;
+    border-radius: 10%;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+
+form button:hover {
+    text-decoration: underline;
 }
 
 input {
     background-color: white;
     padding: 5px 50px;
+    color: #fff8ee;
+    border: 1px gray solid;
+    border-radius: 10px;
+    border: 3px solid #D4A843;
+    padding: 15px 50px;
 }
+
+
+/* input[type=email]{
+    border: 1px gray solid;
+    border-radius: 10px;
+    border: 3px solid #D4A843;
+
+}
+
+input[type=text]{
+    border: 1px gray solid;
+    border-radius: 10px;
+    border: 3px solid #D4A843;
+
+} */
 
 textarea{
     background-color: white;
-    padding: 40px 60px;
+    padding: 45px 60px;
+    border: 5px solid #D4A843;
+    border-radius: 5px;
+    resize: none;
+    width: 40%;
+    
 }
+
 
 h3{
     padding-top: 30px;
@@ -69,5 +125,6 @@ h3{
 
 footer{
     background-color:#F0B674;
+    padding-bottom: 25px;
 
 }
